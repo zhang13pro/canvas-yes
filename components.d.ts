@@ -4,9 +4,12 @@
 
 declare module 'vue' {
   export interface GlobalComponents {
+    Bird: typeof import('./src/components/Bird.vue')['default']
     Counter: typeof import('./src/components/Counter.vue')['default']
     Footer: typeof import('./src/components/Footer.vue')['default']
     Light: typeof import('./src/components/Light.vue')['default']
+    Node: typeof import('./src/components/Node.vue')['default']
+    Paper: typeof import('./src/components/Paper.vue')['default']
     Plum: typeof import('./src/components/Plum.vue')['default']
   }
 }

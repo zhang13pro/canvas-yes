@@ -1,3 +1,3 @@
 <template>
-  <Light />
+  <Bird />
 </template>
