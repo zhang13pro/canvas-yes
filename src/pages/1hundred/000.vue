@@ -13,7 +13,7 @@
 
 <script setup lang='ts'>
 import { computed, ref } from 'vue'
-import { works } from '../works'
+import { works } from '../../works'
 const loading = ref(true)
 const iframe = ref<HTMLIFrameElement | null>()
 const count = ref(1)
